@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Health</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+  
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+      }
+  
+      .background {
+        background: black;
+        background-blend-mode: darken;
+        background-size: cover;
+      }
+  
+      .nav-list {
+        width: 70%;
+        display: flex;
+        align-items: center;
+      }
+  
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .logo img {
+        width: 180px;
+        border-radius: 50px;
+      }
+  
+      .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+      }
+  
+      .nav-list li a {
+        text-decoration: none;
+        color: white;
+      }
+  
+      .nav-list li a:hover {
+        color: grey;
+      }
+  
+      .rightnav {
+        width: 30%;
+        text-align: right;
+      }
+  
+      #search {
+        padding: 5px;
+        font-size: 17px;
+        border: 2px solid grey;
+        border-radius: 9px;
+      }
+  
+      .firstsection {
+        background-color: green;
+        height: 400px;
+      }
+  
+      .secondsection {
+        background-color: blue;
+        height: 400px;
+      }
+  
+      .box-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        max-width: 80%;
+        margin: auto;
+        height: 80%;
+      }
+  
+      .firsthalf {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+  
+      .secondhalf {
+        width: 30%;
+      }
+  
+      .secondhalf img {
+        width: 70%;
+        border: 4px solid white;
+        border-radius: 150px;
+        display: block;
+        margin: auto;
+      }
+  
+      .text-big {
+        font-family: 'Piazzolla', serif;
+        font-weight: bold;
+        font-size: 35px;
+      }
+  
+      .text-small {
+        font-size: 18px;
+      }
+  
+      .btn {
+        padding: 8px 20px;
+        margin: 7px 0;
+        border: 2px solid white;
+        border-radius: 8px;
+        background: none;
+        color: white;
+        cursor: pointer;
+      }
+  
+      .btn-sm {
+        padding: 6px 10px;
+        vertical-align: middle;
+      }
+  
+      .section {
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+        margin: auto;
+      }
+  
+      .section-Left {
+        flex-direction: row-reverse;
+      }
+  
+      .paras {
+        padding: 0px 65px;
+      }
+  
+      .thumbnail img {
+        width: 250px;
+        border: 2px solid black;
+        border-radius: 26px;
+        margin-top: 19px;
+      }
+  
+      .center {
+        text-align: center;
+      }
+  
+      .text-footer {
+        text-align: center;
+        padding: 30px 0;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: white;
+      }
+
+      .foot img {
+        height: 250px;
+        width: 100%;
+     }
+    </style>
+</head>
+
+
+
+<body>
+  <nav class="navbar background">
+    <ul class="nav-list">
+      <div class="logo">
+        <img src= "logo.jpg">
+      </div>
+      <li><a href="#health">Health and its importance</a></li>
+      <li><a href="#claim">Claim</a></li>
+      <li><a href="#policy">Health Insurance</a></li>
+    </ul>
+
+    <div class="rightNav">
+      <input type="text" name="search" id="search">
+      <button class="btn btn-sm">Search</button>
+    </div>
+  </nav>
+
+  <section class="firstsection">
+    <div class="box-main">
+      <div class="firstHalf">
+        <h1 class="text-big" id="health">Health and its importance</h1>
+        <p class="text-small">
+            Health is important to live life to the fullest. 
+            When a person leads a healthy lifestyle, the body 
+            remains healthy and the mind is active and fresh. 
+            Living a healthy life would extend longevity and 
+            also regenerate the body and mind. Having good 
+            health is of core importance to human happiness.<br>
+            The state of complete physical, mental and spiritual 
+            well-being is called health. Health consists of 
+            maintaining the body and taking preventive measures 
+            to reduce the possibility of developing various diseases.
+            Health is the body’s natural functional and metabolic 
+            efficiency to adapt to physical and mental changes the 
+            body is exposed to.
+            Having good health helps a person to perform their daily 
+            routine in a smooth manner.
+
+
+        </p>
+
+
+      </div>
+      <div class="thumbnail">
+        <img src= "health.png" alt="laptop image">
+      </div>
+    </div>
+  </section>
+
+  <section class="secondsection">
+    <div class="box-main">
+      <div class="firstHalf">
+        <h1 class="text-big" id="claim">
+          Claim
+        </h1>
+        <p class="text-small">
+            Star Health Claims Services is a hassle-free and 
+            a customer-friendly process which ensures that all 
+            settlements are processed in a timely manner. 
+            As your health insurance specialist, we make cashless 
+            claim available across all our network hospitals in the country. 
+            Courtesy, attention, speed and efficiency are the high standards 
+            we strive to upkeep. We value our customer’s feedback and work 
+            hard to meet and exceed your expectations.
+
+        </p>
+
+
+      </div>
+      <div class="thumbnail">
+        <img src= "childrens.jpg" alt="laptop image">
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="section">
+    <div class="paras">
+      <h1 class="sectionTag text-big" id="policy">Health Insurance</h1>
+
+      <p class="sectionSubTag text-small">
+        Health insurance is a valid contract between an insurance 
+        company (insurer) and the policyholder (insured) enforceable 
+        in the court of law. An amount of protection towards treatment 
+        expenses is payable for illness or accident in the Hospital / Day 
+        care centre to the insured by the insurer. These treatment expenses 
+        can be claimed either by a cashless facility or reimbursement process.
+
+<br><br>
+List of information and advantages being with Star Health
+
+<li>Protection for - Individual / Families on Floater Basis</li>
+<li>Sum Insured (INR) - up to 2 crores</li>
+<li>Innovative Products - Customer-Centric Policies</li>
+<li>Hassle-Free Claims - 90% in less than 2 hours</li>
+<li>Cashless Facility - 12000+ Network Hospitals</li>
+<li>In-house Claim Settlement - On all 365 days by Qualified Doctors</li>
+<li>Digital Platform - Highly sophisticated website</li>
+<li>Pre-insurance Medical Screening - Not Mandatory in most of our Policies</li>
+
+      </p>
+
+    </div>
+
+    <div class="thumbnail">
+      <img src= "girl.jpg" alt="laptop image">
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot">
+        <img src= "footer.jpg" alt="laptop image">
+    </div>
+  </footer>
+
+</body>
+  
+</html>
